@@ -1,0 +1,45 @@
+.header {
+  margin-top: 15px;
+  margin-right: 500px;
+  margin-left: 500px;
+}
+
+.main-nav {
+  display: flex;
+}
+
+.push {
+  margin-left: auto;
+}
+
+.home {
+  font-size: 20pt;
+  margin-left: 5px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer {
+  text-align: center;
+  display: flex;
+  margin-left: 950px;
+  margin-top: 165px;
+}
+
+.login {
+  display: inline-block;
+  text-align: center;
+  height: 600px;
+  width: 600px;
+  margin: 1rem;
+  padding: 2rem;
+  border-radius: 15px;
+  background: #c0c0c0;
+  box-shadow: 5px 5px 0px 0px #8B0000;
+  margin-top: 50px;
+  margin-left: -100px;
+}
+
+.font {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}

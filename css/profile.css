@@ -1,0 +1,101 @@
+.header {
+  margin-top: 15px;
+  margin-right: 500px;
+  margin-left: 500px;
+}
+
+.main-nav {
+  display: flex;
+}
+
+.push {
+  margin-left: auto;
+}
+
+.home {
+  font-size: 20pt;
+  margin-left: 5px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.info {
+  width: 400px;
+  height: 100px;
+  border: 1px solid;
+  color: #000000;
+  display: inline-block;
+  margin-left: 750px;
+}
+
+.bio {
+  width: 700px;
+  height: 100px;
+  /* border: 1px solid;
+  color: #000000; */
+  display: inline-block;
+  margin-left: 600px;
+  margin-top: 5px;
+}
+
+.links {
+  width: 300px;
+  height: 30px;
+  border: 1px solid;
+  color: #000000;
+  display: inline-block;
+  margin-left: 800px;
+  margin-top: 5px;
+}
+
+.pages {
+  width: 300px;
+  height: 30px;
+  border: 1px solid;
+  color: #000000;
+  display: inline-block;
+  margin-left: 800px;
+  margin-top: 5px;
+}
+
+.create {
+  width: 700px;
+  height: 172px;
+  /* border: 1px solid;
+  color: #000000; */
+  display: inline-block;
+  margin-left: 600px;
+  margin-top: 5px;
+}
+
+.name {
+  margin-left: 750px;
+}
+
+.col-md-8 {
+  height: 130px;
+  background-color: #8b008b;
+}
+
+p {
+  margin: 0
+}
+
+h5 {
+  margin: 0
+}
+
+.font {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.post {
+  width: 700px;
+  height: 800px;
+  /* border: 1px solid;
+  color: #000000;
+  display: inline-block; */
+  margin-left: 600px;
+  margin-top: 20px;
+
+}
