@@ -8,10 +8,9 @@
 }
 
 .home {
-  font-size: 20pt;
   margin-left: 5px;
+  margin-right: 760px;
   color: #ffffff;
-  text-decoration: none;
 }
 
 .header {
@@ -28,9 +27,9 @@
   margin-left: auto;
 }
 
-/* .home {
+.home {
   font-size: 20pt;
-} */
+}
 
 .container {
   margin-left: 25%;
@@ -103,4 +102,10 @@
   margin-top: 20px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.icon {
+    font-size: 24px;
+    color: grey;
+    margin: 10px;
 }

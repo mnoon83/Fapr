@@ -1,10 +1,10 @@
 .header {
-  margin-top: 15px;
-  margin-right: 500px;
-  margin-left: 500px;
+  background-color: #8b00b8;
 }
 
 .main-nav {
+  margin-left: 500px;
+  margin-right: 550px;
   display: flex;
 }
 
@@ -22,7 +22,7 @@
 .signup {
   display: inline-block;
   text-align: center;
-  height: 450px;
+  height: 480px;
   width: 365px;
   margin: 1rem;
   padding: 2rem;
@@ -70,7 +70,7 @@
   text-align: center;
   display: flex;
   margin-left: 65px;
-  margin-top: 215px;
+  margin-top: 185px;
 }
 
 .power {
