@@ -49,6 +49,13 @@ body {
 }
 
 .sidebar-left {
+    display: inline-block;
+    text-align: center;
+    margin: 1rem;
+    padding: 2rem;
+    border-radius: 15px;
+    background: #c0c0c0;
+    box-shadow: 5px 5px 0px 0px #8B0000;
     width: 6%;
     background-color: grey;
     padding: 10px;
@@ -57,11 +64,18 @@ body {
 }
 
 .sidebar-right {
+    display: inline-block;
+    text-align: center;
+    margin: 1rem;
+    padding: 2rem;
+    border-radius: 15px;
+    background: #c0c0c0;
+    box-shadow: 5px 5px 0px 0px #8B0000;
     width: 15%;
     background-color: grey;
     padding: 10px;
     box-sizing: border-box;
-    margin-right: 325px;
+    margin-right: 340px;
 }
 
 .sidebar-content {
@@ -70,6 +84,12 @@ body {
 }
 
 .news-feed {
+    display: inline-block;
+    text-align: center;
+    margin: 1rem;
+    padding: 2rem;
+    border-radius: 15px;
+    background: #c0c0c0;
     width: 35%;
     background-color: grey;
     padding: 10px;
