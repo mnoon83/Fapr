@@ -26,7 +26,7 @@ body {
 .profile-container {
     width: 40%;
     margin: 20px auto;
-    background-color: #8b00b8;
+    background-color: grey;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -91,9 +91,17 @@ body {
     text-decoration: none;
     color: black;
     font-weight: bold;
+    padding-bottom: 10px;
+    padding-top: 5px;
 }
 
 .user-posts {
+        width: 40%;
+    margin: 20px auto;
+    background-color: grey;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin-top: 20px;
 }
 
