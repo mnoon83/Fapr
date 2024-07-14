@@ -3,97 +3,60 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>profile</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <title>Profile Page</title>
   <link rel="stylesheet" href="../css/profile.css">
 </head>
 
-<body style="background-color:#8B008B;">
-  <header>
-    <div class="font">
-      <div class="header">
-        <nav>
-          <ul class="main-nav nav justify-content-end">
-            <a href="./about.html"><img src="https://pbs.twimg.com/media/FJNQTSPVcAM23xr?format=jpg&name=small" alt="icon"
-                height="40px" width="40px"></a>
-            <ul class="nav push justify-content-end">
-              <a class="nav-item" aria-current="page" href="#">edit/message</a>
-            </ul>
-            <ul class="nav2 justify-content-end">
-              <a class="nav-item" aria-current="page" href="#">follow/settings</a>
-            </ul>
-        </nav>
-    </div>
-    </div>
-    <hr>
-    <div class="name" style="max-width: 400px;">
-      <div class="row g-0">
-        <div class="col-md-4">
-          <img src="https://openpsychometrics.org/tests/characters/test-resources/pics/ALA/1.jpg"
-            class="img-fluid rounded-start" alt="...">
+<body>
+  <div class="header">
+    <nav>
+      <ul class="main-nav nav justify-content-end">
+        <a href="./about.html"><img src="https://pbs.twimg.com/media/FJNQTSPVcAM23xr?format=jpg&name=small" alt="icon"
+            height="40px" width="40px"></a>
+        <div class="nav push justify-content-end">
+          <a class="nav-item" aria-current="page" href="">edit/message</a>
+          <a class="nav-item" aria-current="page" href="">follow/settings</a>
         </div>
-        <div class="col-md-8">
-          <div class="card-body">
-            <h5>Display name</h5>
-            <p> @name pronouns(optional)
-            <p>location (optional)
-            <p>join date</p>
-          </div>
-        </div>
+    </nav>
+  </div>
+  <div class="profile-container">
+    <div class="profile-header">
+      <img src="avatar.jpg" alt="" class="avatar">
+      <div class="user-info">
+        <h1 class="display-name">John Doe</h1>
+        <p class="username">@johndoe</p>
+        <p class="location">New York, USA</p>
+        <p class="join-date">Joined January 2020</p>
       </div>
     </div>
-    <br>
     <div class="bio">
-            <div class="row">
-              <div class="col-12">
-                <form>                  
-                  <div class="mb-3">
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3">bio</textarea>
-                  </div>
-                </form>
-              </div>
-            </div>
+      <p>Just a regular guy who loves coding and sharing knowledge. Always learning and growing. #coding #developer</p>
     </div>
-    <div class="links">
-      links to other profiles (ie twitter, OF, FB)
+    <div class="outside-profiles">
+      <a href="#">Facbook</a>
+      <a href="#">X</a>
+      <a href="#">Instagram</a>
+      <a href="#">OnlyFans</a>
+      <a href="#">LinkTree</a>
     </div>
-    <div class="pages">
-      <a href="">posts</a> <a href="">likes</a> <a href="">following</a> <a href="">followers</a> points with badge
+    <div class="profile-links">
+      <a href="#">Posts</a>
+      <a href="#">Likes</a>
+      <a href="#">Following</a>
+      <a href="#">Followers</a>
+      <a href="#">Points</a>
     </div>
-    <div class="create">
-      <div class="row">
-        <div id="posts" class="col-12">
-          <form>
-            <div class="mb-3">
-              <label for="body" class="form-label"></label>
-              <textarea class="form-control" id="body" rows="3"></textarea>
-            </div>
-            <button id="createPost" type="submit" class="btn btn-success">Create</button>
-          </form>
-        </div>
+    <div class="user-posts">
+      <h2>Posts</h2>
+      <div class="post">
+        <p>Post content here...</p>
+      </div>
+      <div class="post">
+        <p>Another post content...</p>
       </div>
     </div>
-    <div class="row">
-      <div class="col-12">
-        <div class="post">
-          <div class="card" style="width: 700px;">
-            <div class="card-body">
-              <h5 class="card-title">Post</h5>
-              <p class="card-text">Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit​​, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum.
-              </p>              
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+  </div>
+</body>
 
-    <body style="background-color:#8B008B;">
-    </body>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-      crossorigin="anonymous"></script>
-    <script src="../app.js"></script>
 </html>
